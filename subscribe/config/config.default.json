@@ -8,7 +8,7 @@
   }
  ],
  "crawl": {
-  "enable": false // 禁用爬虫，只使用上面的订阅链接
+  "enable": false 
  },
  "groups": {
   "free": {
@@ -19,9 +19,9 @@
   "engine": "gist",
   "items": {
    "free-clash": {
-    "username": "fgkhi", // **已修正为您的用户名**
+    "username": "fgkhi", 
     "gistid": "c66d4f5c948a1914471f611930c02919", // Gist ID
-    "filename": "clash.yaml" // 想要生成的文件名
+    "filename": "clash.yaml"
    }
   }
  }
