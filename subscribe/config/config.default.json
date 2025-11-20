@@ -63,7 +63,7 @@
     }
   },
   "converter": {
-    "enable": true,
+    "enable": false,
     "host": "127.0.0.1",
     "port": 25500,
     "params": {
@@ -73,7 +73,7 @@
     }
   },
   "checker": {
-    "enable": true,
+    "enable": false,
     "timeout": 10000,
     "thread": 64
   },
