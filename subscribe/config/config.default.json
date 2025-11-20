@@ -46,7 +46,8 @@
     "telegram": {
       "enable": true, 
       "push_to": ["free"],
-      "channels": [] 
+      "channels":{"username": "proxy_shares", "limit": 100},
+                 {"username": "Free_Proxy_List", "limit": 100}
     },
     "github": {
       "enable": true, 
@@ -83,8 +84,8 @@
     }
   },
   "checker": {
-    "enable": false,
-    "timeout": 10000,
+    "enable": true,
+    "timeout": 20000,
     "thread": 64
     },
   "logger": {
