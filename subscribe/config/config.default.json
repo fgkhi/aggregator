@@ -1,35 +1,23 @@
 {
-    "domains": [
-        {
-            "name": "example-airport",
-            "domain": "example.com",
-            "push_to": ["free"]
-        }
-    ],
-    "crawl": {
-        "enable": true,
-        "telegram": {
-            "enable": true,
-            "users": {
-                "proxy_channel": {
-                    "push_to": ["free"]
-                }
-            }
-        }
-    },
-    "groups": {
-        "free": {
-            "targets": {"clash": "free-clash"}
-        }
-    },
-    "storage": {
-        "engine": "gist",
-        "items": {
-            "free-clash": {
-                "username": "fgkhi",
-                "gistid": "c66d4f5c948a1914471f611930c02919", 
-                "filename": "clash.yaml"
-            }
-        }
+  "domains": [],
+  "crawl": {
+    "enable": false
+  },
+  "groups": {
+    "free": {
+      "targets": {
+        "clash": "free-clash"
+      }
     }
+  },
+  "storage": {
+    "engine": "gist",
+    "items": {
+      "free-clash": {
+        "username": "fgkhi",
+        "gistid": "c66d4f5c948a1914471f611930c02919",
+        "filename": "clash.yaml"
+      }
+    }
+  }
 }
