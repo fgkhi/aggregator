@@ -1,35 +1,74 @@
 {
-    "domains": [
-        {
-            "name": "proxy",
-            "domain": "https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=eb5v381wt80tmpiz&target=clash&list=false",
-            "push_to": ["free"]
-        }
-    ],
-    "crawl": {
-        "enable": true,
-        "telegram": {
-            "enable": true,
-            "users": {
-                "proxy_channel": {
-                    "push_to": ["free"]
-                }
-            }
-        }
+  "domains": [
+    {
+      "name": "Flikify-Free-Node",
+      "domain": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
+      "push_to": ["free"],
+      "enabled": true
     },
-    "groups": {
-        "free": {
-            "targets": {"clash": "free-clash"}
-        }
+    {
+      "name": "anaer-Sub",
+      "domain": "https://anaer.github.io/Sub/clash.yaml",
+      "push_to": ["free"],
+      "enabled": true
     },
-    "storage": {
-        "engine": "gist",
-        "items": {
-            "free-clash": {
-                "username": "fgkhi",
-                "gistid": "c66d4f5c948a1914471f611930c02919", 
-                "filename": "clash.yaml"
-            }
-        }
+    {
+      "name": "sharecentre-clash",
+      "domain": "https://sub.sharecentre.online/clash/scp.yml",
+      "push_to": ["free"],
+      "enabled": true
+    },
+    {
+      "name": "toshiki-proxies",
+      "domain": "https://proxypool.toshiki.top/clash/proxies",
+      "push_to": ["free"],
+      "enabled": true
+    },
+    {
+      "name": "learnhard-free_proxy_ss",
+      "domain": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
+      "push_to": ["free"],
+      "enabled": true
     }
+  ],
+  "crawl": {
+    "enable": false
+  },
+  "groups": {
+    "free": {
+      "targets": {
+        "clash": "free-clash"
+      },
+      "remark": "聚合免费节点"
+    }
+  },
+  "storage": {
+    "engine": "gist",
+    "items": {
+      "free-clash": {
+        "username": "fgkhi",
+        "gistid": "c66d4f5c948a1914471f611930c02919",
+        "filename": "clash.yaml"
+      }
+    }
+  },
+  "converter": {
+    "enable": true,
+    "host": "127.0.0.1",
+    "port": 25500,
+    "params": {
+      "emoji": true,
+      "base64": false,
+      "udp": true
+    }
+  },
+  "checker": {
+    "enable": true,
+    "timeout": 10000,
+    "thread": 64
+  },
+  "logger": {
+    "level": "INFO",
+    "filename": "aggregator.log"
+  }
 }
