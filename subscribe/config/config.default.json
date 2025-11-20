@@ -1,10 +1,11 @@
 {
   "domains": [
+    // --- 原有链接（已禁用，因确认失效或为空） ---
     {
       "name": "Flikify-Free-Node",
       "domain": "https://vicky.xiaoan00.filegear-sg.me/sub?token=768fd187e0361230527ba41f2290832a",
       "push_to": ["free"],
-      "enabled": false, 
+      "enabled": false, // 禁用
       "register": false,
       "type": "raw"
     },
@@ -12,7 +13,7 @@
       "name": "anaer-Sub",
       "domain": "https://anaer.github.io/Sub/clash.yaml",
       "push_to": ["free"],
-      "enabled": false, 
+      "enabled": false, // 禁用
       "register": false,
       "type": "raw"
     },
@@ -20,7 +21,7 @@
       "name": "sharecentre-clash",
       "domain": "https://sub.sharecentre.online/clash/scp.yml",
       "push_to": ["free"],
-      "enabled": false, 
+      "enabled": false, // 禁用
       "register": false,
       "type": "raw"
     },
@@ -28,7 +29,7 @@
       "name": "toshiki-proxies",
       "domain": "https://proxypool.toshiki.top/clash/proxies",
       "push_to": ["free"],
-      "enabled": false, 
+      "enabled": false, // 禁用
       "register": false,
       "type": "raw"
     },
@@ -36,7 +37,24 @@
       "name": "learnhard-free_proxy_ss",
       "domain": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
       "push_to": ["free"],
-      "enabled": false, 
+      "enabled": false, // 禁用
+      "register": false,
+      "type": "raw"
+    },
+    // --- 新增的相对更稳定的订阅源 ---
+    {
+      "name": "Pali-Proxy",
+      "domain": "https://raw.githubusercontent.com/PaliPali-s/Proxy/main/Clash.yaml",
+      "push_to": ["free"],
+      "enabled": true, 
+      "register": false,
+      "type": "raw"
+    },
+    {
+      "name": "peasoft-Sub",
+      "domain": "https://sub.api.peasoft.net/proxy",
+      "push_to": ["free"],
+      "enabled": true, 
       "register": false,
       "type": "raw"
     }
@@ -46,7 +64,7 @@
     "telegram": {
       "enable": true, 
       "push_to": ["free"],
-      "channels": [ 
+      "channels": [
         {"username": "proxy_shares", "limit": 100},
         {"username": "Free_Proxy_List", "limit": 100}
       ]
