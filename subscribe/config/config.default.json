@@ -1,38 +1,38 @@
 {
   "domains": [
     {
-      "name":"Flikify-Free-Node",
-      "url":"https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
+      "name": "Flikify-Free-Node",
+      "url": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
       "push_to": ["free"]
     },
     {
-      "name":"anaer-Sub",
-      "url":"https://anaer.github.io/Sub/clash.yaml",
-      "push_to":["free"]
+      "name": "anaer-Sub",
+      "url": "https://anaer.github.io/Sub/clash.yaml",
+      "push_to": ["free"]
     },
     {
-      "name":"sharecentre-clash",
-      "url":"https://sub.sharecentre.online/clash/scp.yml",
-      "push_to":["free"]
+      "name": "sharecentre-clash",
+      "url": "https://sub.sharecentre.online/clash/scp.yml",
+      "push_to": ["free"]
     },
     {
-      "name":"toshiki-proxies",
-      "url":"https://proxypool.toshiki.top/clash/proxies",
-      "push_to":["free"]
+      "name": "toshiki-proxies",
+      "url": "https://proxypool.toshiki.top/clash/proxies",
+      "push_to": ["free"]
     },
     {
-      "name":"learnhard-free_proxy_ss",
-      "url":"https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
-      "push_to":["free"]
+      "name": "learnhard-free_proxy_ss",
+      "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
+      "push_to": ["free"]
     }
   ],
   "crawl": {
-    "enable":true,
+    "enable": true,
     "telegram": {
-      "enable":true,
+      "enable": true,
       "users": {
         "FreeNodeDaily": {
-          "push_to":["free"]
+          "push_to": ["free"]
         }
       }
     }
@@ -40,17 +40,17 @@
   "groups": {
     "free": {
       "targets": {
-        "clash":"free-clash"
+        "clash": "free-clash"
       }
     }
   },
   "storage": {
-    "engine":"gist",
+    "engine": "gist",
     "items": {
       "free-clash": {
-        "username":"fgkhi",
-        "gistid":"c66d4f5c948a1914471f611930c02919",
-        "filename":"clash.yaml"
+        "username": "fgkhi",
+        "gistid": "c66d4f5c948a1914471f611930c02919",
+        "filename": "clash.yaml"
       }
     }
   }
