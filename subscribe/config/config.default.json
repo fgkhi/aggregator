@@ -1,41 +1,7 @@
 {
-  "domains": [
-    {
-      "name": "Flikify-Free-Node",
-      "url": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
-      "push_to": ["free"]
-    },
-    {
-      "name": "anaer-Sub",
-      "url": "https://anaer.github.io/Sub/clash.yaml",
-      "push_to": ["free"]
-    },
-    {
-      "name": "sharecentre-clash",
-      "url": "https://sub.sharecentre.online/clash/scp.yml",
-      "push_to": ["free"]
-    },
-    {
-      "name": "toshiki-proxies",
-      "url": "https://proxypool.toshiki.top/clash/proxies",
-      "push_to": ["free"]
-    },
-    {
-      "name": "learnhard-free_proxy_ss",
-      "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
-      "push_to": ["free"]
-    }
-  ],
+  "domains": [],
   "crawl": {
-    "enable": true,
-    "telegram": {
-      "enable": true,
-      "users": {
-        "FreeNodeDaily": {
-          "push_to": ["free"]
-        }
-      }
-    }
+    "enable": false
   },
   "groups": {
     "free": {
