@@ -52,7 +52,7 @@ jobs:
         run: pip3 install -r requirements.txt
 
       - name: Process
-        run: python -u subscribe/process.py --overwrite
+        run: python -u subscribe/process.py -s subscribe/config/config.default.json --overwrite
       - name: Debug Environment
         run: |
               echo "GH_TOKEN starts with: ${GH_TOKEN:0:5}"
