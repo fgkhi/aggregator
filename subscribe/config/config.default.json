@@ -5,35 +5,40 @@
       "domain": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
       "push_to": ["free"],
       "enabled": true,
-      "register": false
+      "register": false,
+      "type": "raw"
     },
     {
       "name": "anaer-Sub",
       "domain": "https://anaer.github.io/Sub/clash.yaml",
       "push_to": ["free"],
       "enabled": true,
-      "register": false
+      "register": false,
+      "type": "raw"
     },
     {
       "name": "sharecentre-clash",
       "domain": "https://sub.sharecentre.online/clash/scp.yml",
       "push_to": ["free"],
       "enabled": true,
-      "register": false
+      "register": false,
+      "type": "raw"
     },
     {
       "name": "toshiki-proxies",
       "domain": "https://proxypool.toshiki.top/clash/proxies",
       "push_to": ["free"],
       "enabled": true,
-      "register": false
+      "register": false,
+      "type": "raw"
     },
     {
       "name": "learnhard-free_proxy_ss",
       "domain": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
       "push_to": ["free"],
       "enabled": true,
-      "register": false
+      "register": false,
+      "type": "raw"
     }
   ],
   "crawl": {
