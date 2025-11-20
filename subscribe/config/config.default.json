@@ -2,7 +2,7 @@
   "domains": [
     {
       "name": "Flikify-Free-Node",
-      "domain": "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
+      "domain": "https://vicky.xiaoan00.filegear-sg.me/sub?token=768fd187e0361230527ba41f2290832a",
       "push_to": ["free"],
       "enabled": true,
       "register": false,
