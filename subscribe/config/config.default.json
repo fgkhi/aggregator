@@ -1,5 +1,6 @@
 {
   "domains": [
+    // --- 原有链接（已禁用，因确认失效或为空） ---
     {
       "name": "Flikify-Free-Node",
       "domain": "https://vicky.xiaoan00.filegear-sg.me/sub?token=768fd187e0361230527ba41f2290832a",
@@ -44,7 +45,7 @@
       "name": "Pali-Proxy",
       "domain": "https://raw.githubusercontent.com/PaliPali-s/Proxy/main/Clash.yaml",
       "push_to": ["free"],
-      "enabled": true, 
+      "enabled": false, 
       "register": false,
       "type": "raw"
     },
@@ -52,8 +53,24 @@
       "name": "peasoft-Sub",
       "domain": "https://sub.api.peasoft.net/proxy",
       "push_to": ["free"],
-      "enabled": true, 
+      "enabled": false, 
       "register": false,
+      "type": "raw"
+    },
+    {
+      "name": "aicaicai-Reg",
+      "domain": "https://aicaicai.dashuai.us",
+      "push_to": ["free"],
+      "enabled": true, 
+      "register": true,
+      "type": "raw"
+    },
+    {
+      "name": "sing-link-Reg",
+      "domain": "https://dashboard.sing-link.com",
+      "push_to": ["free"],
+      "enabled": true, 
+      "register": true,
       "type": "raw"
     }
   ],
