@@ -4,7 +4,7 @@
       "name": "Flikify-Free-Node",
       "domain": "https://vicky.xiaoan00.filegear-sg.me/sub?token=768fd187e0361230527ba41f2290832a",
       "push_to": ["free"],
-      "enabled": true,
+      "enabled": false, // 暂时禁用域名订阅源，避免干扰爬虫测试
       "register": false,
       "type": "raw"
     },
@@ -12,7 +12,7 @@
       "name": "anaer-Sub",
       "domain": "https://anaer.github.io/Sub/clash.yaml",
       "push_to": ["free"],
-      "enabled": true,
+      "enabled": false, // 暂时禁用域名订阅源
       "register": false,
       "type": "raw"
     },
@@ -20,7 +20,7 @@
       "name": "sharecentre-clash",
       "domain": "https://sub.sharecentre.online/clash/scp.yml",
       "push_to": ["free"],
-      "enabled": true,
+      "enabled": false, // 暂时禁用域名订阅源
       "register": false,
       "type": "raw"
     },
@@ -28,7 +28,7 @@
       "name": "toshiki-proxies",
       "domain": "https://proxypool.toshiki.top/clash/proxies",
       "push_to": ["free"],
-      "enabled": true,
+      "enabled": false, // 暂时禁用域名订阅源
       "register": false,
       "type": "raw"
     },
@@ -36,13 +36,24 @@
       "name": "learnhard-free_proxy_ss",
       "domain": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
       "push_to": ["free"],
-      "enabled": true,
+      "enabled": false, // 暂时禁用域名订阅源
       "register": false,
       "type": "raw"
     }
   ],
   "crawl": {
-    "enable": false
+    "enable": true, // 🌟 启用总爬虫开关
+    "telegram": {
+      "enable": true, // 🌟 启用 Telegram 爬虫
+      "push_to": ["free"],
+      // 默认会爬取项目内硬编码的一些频道。首次运行时需要认证。
+      "channels": [] 
+    },
+    "github": {
+      "enable": true, // 🌟 启用 GitHub 爬虫
+      "push_to": ["free"]
+    },
+    "enable_custom_crawlers": false
   },
   "groups": {
     "free": {
