@@ -46,12 +46,19 @@
     "telegram": {
       "enable": true, 
       "push_to": ["free"],
-      "channels":{"username": "proxy_shares", "limit": 100},
-                 {"username": "Free_Proxy_List", "limit": 100}
+      "channels": [ 
+        {"username": "proxy_shares", "limit": 100},
+        {"username": "Free_Proxy_List", "limit": 100}
+      ]
     },
     "github": {
       "enable": true, 
-      "push_to": ["free"]
+      "push_to": ["free"],
+      "keywords": [
+        "v2ray",
+        "trojan",
+        "clash.yaml"
+      ]
     },
     "enable_custom_crawlers": false
   },
@@ -87,7 +94,7 @@
     "enable": true,
     "timeout": 20000,
     "thread": 64
-    },
+  },
   "logger": {
     "level": "INFO",
     "filename": "aggregator.log"
